@@ -1,0 +1,30 @@
+
+@font-face {
+	font-family: 'stc-bold';
+	src: url("STC-Bold.eot");
+	/* for non-IE */
+	src: local("?"), url("STC-Bold.woff") format("woff"), url("STC-Bold.ttf") format("truetype"), url("STC-Bold.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'stc-italic';
+	src: url("STC-Italic.eot");
+	src: local("?"), url("STC-Italic.woff") format("woff"), url("STC-Italic.ttf") format("truetype"), url("STC-Italic.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'stc-light';
+	src: url("STC-Light.eot");
+	src: local("?"), url("STC-Light.woff") format("woff"), url("STC-Light.ttf") format("truetype"), url("STC-Light.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'stc-regular';
+	src: url("STC-Regular.eot");
+	src: local("?"), url("STC-Regular.woff") format("woff"), url("STC-Regular.ttf") format("truetype"), url("STC-Regular.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
