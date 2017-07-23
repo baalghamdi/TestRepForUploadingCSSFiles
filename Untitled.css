@@ -1,0 +1,118 @@
+
+@font-face {
+	font-family: 'stc-bold';
+	src: url("STC-Bold.eot");
+	/* for non-IE */
+	src: local("?"), url("STC-Bold.woff") format("woff"), url("STC-Bold.ttf") format("truetype"), url("STC-Bold.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'stc-italic';
+	src: url("STC-Italic.eot");
+	src: local("?"), url("STC-Italic.woff") format("woff"), url("STC-Italic.ttf") format("truetype"), url("STC-Italic.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'stc-light';
+	src: url("STC-Light.eot");
+	src: local("?"), url("STC-Light.woff") format("woff"), url("STC-Light.ttf") format("truetype"), url("STC-Light.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'stc-regular';
+	src: url("STC-Regular.eot");
+	src: local("?"), url("STC-Regular.woff") format("woff"), url("STC-Regular.ttf") format("truetype"), url("STC-Regular.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+    font-family: 'stc-regular';
+}
+
+.Skin #Buttons #NextButton, .Skin #Buttons #PreviousButton {
+    background: #703081;
+}
+
+.Skin .TE textarea, .Skin input.TextEntryBox, .Skin input[type=text], .Skin input[type=password], .Skin input[type=search], .Skin select, .Skin textarea {
+    height: 40px !important;
+    width: 110px;
+}
+
+.Skin .TE textarea:focus, .Skin input.TextEntryBox:focus, .Skin input[type=text]:focus, .Skin input[type=password]:focus, .Skin input[type=search]:focus, .Skin select:focus, .Skin textarea:focus {
+    border: 2px solid #703081;
+}
+
+div#Header {
+    text-align: center !important;
+    font-size: 50px !important;
+    border-bottom: 2px solid #703081;
+    padding-bottom: 10px !important;
+    font-family: stc;
+    background: linear-gradient(90deg,#712c81 0%,#5f1e67 5% , #c82e81 55%, #da3f7b 65%, #e0596d 75%, #e5596d 88%, #e58058 100%);
+    color: transparent !important;
+    -webkit-background-clip: text;
+}
+
+.Skin #Buttons #NextButton:focus, .Skin #Buttons #PreviousButton:focus{
+    background: #703081;
+}
+
+.Skin #Questions {
+    font-size: 17px !important;
+}
+
+.Skin .QuestionOuter {
+    font-size: 2px !important;
+}
+
+.Skin .QuestionText {
+    font-size: 16px;
+    font-family: stc;
+    text-align: justify;
+
+}
+
+.Skin #Footer {
+    border-top: 2px solid #703081;
+    background: #f1efef;
+    height: 87px;
+    font-family: stc;
+}
+
+
+ul.ChoiceStructure {
+    font-family: stc;
+}
+
+.Skin label.MultipleAnswer.q-checked, .Skin label.SingleAnswer.q-checked {
+    background: #703081;
+}
+
+.Skin label.MultipleAnswer.q-checked, .Skin label.SingleAnswer.q-checked {
+    background: #703081;
+}
+
+.Skin label.MultipleAnswer.q-checked.q-focused,.Skin label.SingleAnswer.q-checked.q-focused{
+    background:#703081;
+    }
+
+
+.Skin .MC .Inner .InnerInner .QuestionBody .TextEntryBox {
+    margin: 13px 0px 0 0;
+}
+
+.Skin .TE .SL .InputText {
+    padding: 0px 7px;
+}
+
+.Skin label.MultipleAnswer.q-checked+input, .Skin label.MultipleAnswer.q-checked+textarea, .Skin label.SingleAnswer.q-checked+input, .Skin label.SingleAnswer.q-checked+textarea {
+    border-color: #703081;
+}
+
+.Skin .MC .Inner .InnerInner .QuestionBody .TextEntryBox {
+    padding: 0 5px;
+}
